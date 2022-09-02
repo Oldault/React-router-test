@@ -5,6 +5,7 @@ function Blog() {
   return (
     <div className="App">
       <h1>Blog</h1>
+      <div className="black-line"></div>
       <p>
         Enim ut sem viverra aliquet eget sit amet. Pellentesque elit eget
         gravida cum. Elit scelerisque mauris pellentesque pulvinar pellentesque
@@ -17,6 +18,7 @@ function Blog() {
         laoreet sit. Egestas diam in arcu cursus euismod quis viverra nibh. Diam
         sollicitudin tempor id eu nisl. At augue eget arcu dictum.
       </p>
+      <img src={require("./Thirsty_bear.jpg")} alt="bear drinking"/>
     </div>
   );
 }

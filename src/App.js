@@ -11,12 +11,12 @@ function App() {
   return (
     <Router>
       <nav class="navMenu">
-      <a href="/home">Home</a>
-      <a href="/Blog">Blog</a>
-      <a href="/Work">Work</a>
-      <a href="/About">About</a>
-      <div class="dot"></div>
-    </nav>
+        <a href="/home">Home</a>
+        <a href="/blog">Blog</a>
+        <a href="/work">Work</a>
+        <a href="/about">About</a>
+        <div class="dot"></div>
+      </nav>
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/blog" element={<Blog />} />

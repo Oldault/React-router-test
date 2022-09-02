@@ -5,6 +5,7 @@ function Work() {
   return (
     <div className="App">
       <h1>Work</h1>
+      <div className="black-line"></div>
       <p>
         Convallis aenean et tortor at risus. Egestas integer eget aliquet nibh
         praesent tristique magna. Mollis nunc sed id semper risus in hendrerit
@@ -21,6 +22,7 @@ function Work() {
         Habitant morbi tristique senectus et netus et. In aliquam sem fringilla
         ut morbi tincidunt augue interdum velit.
       </p>
+      <img src={require("./chilling cat.jpg")} alt="cat laying"/>
     </div>
   );
 }

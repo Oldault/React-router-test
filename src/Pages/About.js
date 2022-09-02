@@ -5,6 +5,7 @@ function About() {
   return (
     <div className="App">
       <h1>About</h1>
+      <div className="black-line"></div>
       <p>
         Eget aliquet nibh praesent tristique magna sit amet purus. Amet
         facilisis magna etiam tempor orci eu lobortis elementum nibh. Nibh
@@ -17,6 +18,7 @@ function About() {
         faucibus in ornare. Aliquet eget sit amet tellus cras adipiscing enim
         eu. A erat nam at lectus urna duis convallis.
       </p>
+      <img src={require("./snack.jpg")} alt="Hmmmm"/>
     </div>
   );
 }

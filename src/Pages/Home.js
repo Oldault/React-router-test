@@ -5,6 +5,7 @@ function Home() {
   return (
     <div className="App">
       <h1>Home</h1>
+      <div className="black-line"></div>
       <p>
         Mauris augue neque gravida in. Nulla porttitor massa id neque aliquam
         vestibulum. Fames ac turpis egestas maecenas pharetra convallis. Enim
@@ -17,6 +18,7 @@ function Home() {
         nisl rhoncus mattis. Mi tempus imperdiet nulla malesuada pellentesque
         elit eget gravida. Odio eu feugiat pretium nibh ipsum.
       </p>
+      <img src={require("./Monkey_on_skateboard.jpg")} alt="monkey skateboarding"/>
     </div>
   );
 }
