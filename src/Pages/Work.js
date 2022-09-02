@@ -15,12 +15,7 @@ function Work() {
         tortor pretium. A lacus vestibulum sed arcu non odio euismod lacinia.
         Massa vitae tortor condimentum lacinia. Fermentum iaculis eu non diam
         phasellus vestibulum lorem sed. Sed felis eget velit aliquet sagittis.
-        Viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Sed lectus
-        vestibulum mattis ullamcorper velit sed ullamcorper morbi. Urna
-        porttitor rhoncus dolor purus non enim praesent elementum facilisis.
-        Augue interdum velit euismod in pellentesque massa placerat duis.
-        Habitant morbi tristique senectus et netus et. In aliquam sem fringilla
-        ut morbi tincidunt augue interdum velit.
+        Viverra accumsan in nisl nisi scelerisque eu ultrices vitae.
       </p>
       <img src={require("./chilling cat.jpg")} alt="cat laying"/>
     </div>

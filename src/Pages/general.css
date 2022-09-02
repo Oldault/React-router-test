@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC');
 
 .App {
-  width: 500px;
+  max-width: 500px;
   height: auto;
   position: absolute;
   left: 50%;
@@ -9,11 +9,16 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  margin: 20px;
 }
 
 .App h1 {
     padding: 8px;
     font-family: 'IM Fell English SC', serif;
+}
+
+.App p {
+    width: fit-content;
 }
 
 .black-line {
@@ -28,4 +33,16 @@ img {
     max-width: 300px;
     margin: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media only screen and (max-width: 1060px) {
+    .App {
+        top: 60%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .App {
+        top: 68%;
+    }
 }

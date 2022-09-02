@@ -6,6 +6,7 @@ import Blog from "./Pages/Blog";
 import Work from "./Pages/Work";
 import About from "./Pages/About";
 import ErrorPage from "./Pages/ErrorPage";
+import Main from "./Pages/Main";
 
 function App() {
   return (
