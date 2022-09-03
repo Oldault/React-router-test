@@ -16,6 +16,11 @@ body {
   top: 50px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  width: max-content;
+}
+
+.outer-nav {
+  width: 100%;
 }
 
 .navMenu a {

@@ -11,6 +11,7 @@ import Main from "./Pages/Main";
 function App() {
   return (
     <Router>
+      <div className="outer-nav">
       <nav class="navMenu">
         <a href="/home">Home</a>
         <a href="/blog">Blog</a>
@@ -18,6 +19,7 @@ function App() {
         <a href="/about">About</a>
         <div class="dot"></div>
       </nav>
+      </div>
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/blog" element={<Blog />} />

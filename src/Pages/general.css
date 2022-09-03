@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC');
 
 .App {
-  max-width: 500px;
+  max-width: 100%;
   height: auto;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 20px;
+}
+
+.content {
+    max-width: 500px;
+    margin-top: 200px;
+    text-align: center;
 }
 
 .App h1 {
@@ -36,13 +40,13 @@ img {
 }
 
 @media only screen and (max-width: 1060px) {
-    .App {
-        top: 60%;
+    .content {
+        margin-top: 120px;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .App {
-        top: 68%;
+    .content {
+        margin-top: 80px;
     }
 }
